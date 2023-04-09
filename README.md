@@ -1,6 +1,6 @@
 ![Magento 2](https://cdn.rawgit.com/rafaelstz/magento2-snippets-visualstudio/master/images/icon.png)
 
-#  Magento 2 Docker to Development (For Apple Silicon)
+#  Magento 2 Docker to Development (Mac OS Ventura 13.3 Tested)
 
 ### Nginx (1.8) + Redis (6.2) + PHP-FPM (8.1) + MySQL (8.0.27) + XDebug (3.1.4) + Mailhog + RabbitMQ (3.9) + Elasticsearch (7.16.3)
 
@@ -93,6 +93,10 @@ Install project:
 
 ## Setting up Magento
 To access the magento homepage, go to the following url: http://magento2.test<br>
+
+## Access command line Magento inside docker
+Example<br>
+docker exec -it magento2-php-fpm bash
 
 Also, you can open:<br>
 http://mail.magento2.test - **Mailhog**<br>
